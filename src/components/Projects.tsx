@@ -1,6 +1,5 @@
-
 import ProjectCard from "./ProjectCard";
-import { LightBulb, ArrowRight } from "lucide-react";
+import { Lightbulb, ArrowRight } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -42,7 +41,7 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-slate-50">
       <div className="section-container">
         <div className="flex items-center gap-2 mb-2 animate-fade-in">
-          <LightBulb className="h-5 w-5 text-blue-600" />
+          <Lightbulb className="h-5 w-5 text-blue-600" />
           <span className="section-tag">Featured Work</span>
         </div>
         <h2 className="section-heading animate-fade-in">Data Science Projects</h2>

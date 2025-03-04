@@ -1,7 +1,7 @@
 
 import SkillCard from "./SkillCard";
 import { 
-  Code, Database, BarChart3, BrainCircuit, LineChart, Flask, PenTool, BookOpen
+  Code, Database, BarChart3, BrainCircuit, LineChart, FlaskConical, PenTool, BookOpen
 } from "lucide-react";
 
 const Skills = () => {
@@ -56,7 +56,7 @@ const Skills = () => {
   const toolsSkills = [
     {
       name: "Pandas & NumPy",
-      icon: <Flask size={20} />,
+      icon: <FlaskConical size={20} />,
       proficiency: 85,
       description: "Proficient with Python data manipulation libraries for efficient data processing.",
       variant: "tertiary",
