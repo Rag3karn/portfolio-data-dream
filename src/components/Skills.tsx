@@ -97,7 +97,7 @@ const Skills = () => {
                   icon={skill.icon}
                   proficiency={skill.proficiency}
                   description={skill.description}
-                  variant={skill.variant}
+                  variant={skill.variant as "primary" | "secondary" | "tertiary"}
                   animationDelay={index * 100}
                 />
               ))}
@@ -114,7 +114,7 @@ const Skills = () => {
                   icon={skill.icon}
                   proficiency={skill.proficiency}
                   description={skill.description}
-                  variant={skill.variant}
+                  variant={skill.variant as "primary" | "secondary" | "tertiary"}
                   animationDelay={index * 100}
                 />
               ))}
@@ -131,7 +131,7 @@ const Skills = () => {
                   icon={skill.icon}
                   proficiency={skill.proficiency}
                   description={skill.description}
-                  variant={skill.variant}
+                  variant={skill.variant as "primary" | "secondary" | "tertiary"}
                   animationDelay={index * 100}
                 />
               ))}
