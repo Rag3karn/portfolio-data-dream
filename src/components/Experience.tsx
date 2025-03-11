@@ -5,31 +5,44 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Data Science Intern",
-      company: "TechCorp Analytics",
-      location: "San Francisco, CA",
-      period: "Jun 2023 - Aug 2023",
+      title: "AI Research Intern",
+      company: "Aurorab Private Limited",
+      location: "Mumbai, MH, India",
+      period: "January 2023 - Present",
       description: [
-        "Developed data visualization dashboards using Python and Tableau to track key metrics, improving executive decision-making efficiency by 30%.",
-        "Implemented machine learning models to predict customer churn with 85% accuracy, leading to targeted retention strategies.",
-        "Collaborated with cross-functional teams to gather requirements and translate business problems into data-driven solutions.",
-        "Automated data cleaning and preprocessing workflows, reducing data preparation time by 40%."
+        "Developed data visualization dashboards to track key metrics for construction building projects.",
+        "Implemented ML models for project timelines optimization and gap analysis.",
+        "Collaborated with cross-functional teams to translate business problems into data-driven solutions.",
+        "Contributed to technical gap resolution between finished construction and BIM modeling.",
       ],
-      skills: ["Python", "Pandas", "Scikit-learn", "Tableau", "SQL", "Statistical Analysis"],
+      skills: ["Python", "Machine Learning", "Data Visualization", "Statistical Analysis"],
+      isActive: true,
+    },
+    {
+      title: "Data Science Intern",
+      company: "Innato AI",
+      location: "Helsinki, Finland",
+      period: "October 2023 - January 2023",
+      description: [
+        "Contributed to fine-tuning Large Language Models (LLM) and leveraging AI for critical solutions.",
+        "Demonstrated strong problem-solving abilities in applying data science knowledge and APIs.",
+        "Assisted in testing and fine-tuning benchmark datasets for optimal model performance.",
+        "Successfully delivered tasks at a good pace with precision and excellence.",
+      ],
+      skills: ["LLMs", "AI Development", "Data Science", "Benchmarking"],
       isActive: false,
     },
     {
-      title: "Research Data Analyst Intern",
-      company: "DataVision Institute",
-      location: "Boston, MA",
-      period: "Jan 2023 - Apr 2023",
+      title: "Teaching Assistant",
+      company: "U&I",
+      location: "Nagpur Urban, MH, India",
+      period: "April 2023 - August 2023",
       description: [
-        "Conducted exploratory data analysis on large datasets to identify trends and patterns in consumer behavior.",
-        "Assisted in the development of predictive models using regression and classification techniques.",
-        "Created comprehensive reports and presentations to communicate findings to non-technical stakeholders.",
-        "Participated in weekly research meetings to discuss methodology and results."
+        "Teaching underprivileged students and helping them with their studies.",
+        "Contributing to society by educating the underprivileged and orphan students.",
+        "Managing other interns and mentors with the goal to reach the students and create a difference in the society.",
       ],
-      skills: ["R", "Data Analysis", "Statistical Modeling", "Data Visualization", "Research Methods"],
+      skills: ["Teaching", "Mentoring", "Leadership", "Social Impact"],
       isActive: false,
     },
   ];

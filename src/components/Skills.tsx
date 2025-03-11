@@ -1,7 +1,7 @@
 
 import SkillCard from "./SkillCard";
 import { 
-  Code, Database, BarChart3, BrainCircuit, LineChart, FlaskConical, PenTool, BookOpen
+  Code, Database, BarChart3, BrainCircuit, LineChart, FlaskConical, Cloud, Terminal
 } from "lucide-react";
 
 const Skills = () => {
@@ -9,70 +9,70 @@ const Skills = () => {
     {
       name: "Python",
       icon: <Code size={20} />,
-      proficiency: 85,
-      description: "Proficient in Python programming, particularly for data analysis and machine learning applications.",
+      proficiency: 90,
+      description: "Proficient in Python programming for machine learning and data analysis, including frameworks like NumPy, Pandas, and PyTorch.",
       variant: "primary",
     },
     {
-      name: "R",
-      icon: <Code size={20} />,
-      proficiency: 75,
-      description: "Strong knowledge of R for statistical analysis and data visualization.",
-      variant: "primary",
-    },
-    {
-      name: "SQL",
+      name: "SQL & Databases",
       icon: <Database size={20} />,
+      proficiency: 85,
+      description: "Experience with MySQL, Docker, MongoDB for data storage and management.",
+      variant: "primary",
+    },
+    {
+      name: "APIs & DevOps",
+      icon: <Cloud size={20} />,
       proficiency: 80,
-      description: "Experienced in writing complex queries and managing relational databases.",
+      description: "Skilled in REST APIs, Flask, FastAPI, and Docker containerization.",
       variant: "primary",
     },
   ];
 
   const dataSkills = [
     {
-      name: "Data Analysis",
-      icon: <BarChart3 size={20} />,
+      name: "Machine Learning",
+      icon: <BrainCircuit size={20} />,
       proficiency: 90,
-      description: "Expert in exploratory data analysis, statistical analysis, and hypothesis testing.",
+      description: "Expertise in machine learning algorithms, model training, and deployment.",
       variant: "secondary",
     },
     {
-      name: "Machine Learning",
-      icon: <BrainCircuit size={20} />,
-      proficiency: 75,
-      description: "Knowledgeable in various ML algorithms, model training, and evaluation techniques.",
+      name: "Data Analysis",
+      icon: <BarChart3 size={20} />,
+      proficiency: 85,
+      description: "Strong background in data analysis, preprocessing, and statistical modeling.",
       variant: "secondary",
     },
     {
       name: "Data Visualization",
       icon: <LineChart size={20} />,
       proficiency: 85,
-      description: "Skilled in creating clear, informative visualizations using various tools and libraries.",
+      description: "Proficient in creating insightful visualizations and dashboards.",
       variant: "secondary",
     },
   ];
 
   const toolsSkills = [
     {
-      name: "Pandas & NumPy",
-      icon: <FlaskConical size={20} />,
+      name: "Deep Learning",
+      icon: <Terminal size={20} />,
       proficiency: 85,
-      description: "Proficient with Python data manipulation libraries for efficient data processing.",
+      description: "Experience with NLP, TensorFlow, and advanced machine learning models.",
       variant: "tertiary",
     },
     {
-      name: "Tableau",
-      icon: <PenTool size={20} />,
-      proficiency: 70,
-      description: "Experienced in creating interactive dashboards and visual analytics.",
+      name: "Development Tools",
+      icon: <FlaskConical size={20} />,
+      proficiency: 80,
+      description: "Proficient with Git, Jupyter, DVC, and development workflows.",
       variant: "tertiary",
     },
     {
-      name: "Scikit-learn",
-      icon: <BookOpen size={20} />,
+      name: "Cloud Services",
+      icon: <Cloud size={20} />,
       proficiency: 75,
-      description: "Familiar with implementing machine learning algorithms using Scikit-learn.",
+      description: "Familiar with AWS and cloud-based machine learning deployments.",
       variant: "tertiary",
     },
   ];
