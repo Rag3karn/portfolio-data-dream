@@ -30,7 +30,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
       tags: ["NLP", "Python", "API", "RAG", "Streamlit"],
       links: {
-        live: "https://github.com/Rag3karn/Information-Retrieval-System",
+        live: "https://github.com/Rag3karn/Information-Retrival-System",
       },
     },
   ];
