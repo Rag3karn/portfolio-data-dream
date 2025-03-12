@@ -154,14 +154,14 @@ const Contact = () => {
                     LinkedIn
                   </a>
                   <a 
-                    href="#"
+                    href="https://www.linkedin.com/in/karngupta2/"
                     className="inline-flex items-center px-4 py-2.5 bg-white text-slate-700 rounded-lg border border-slate-200 hover:bg-slate-50 transition-colors"
                   >
                     <Github size={18} className="mr-2" />
                     GitHub
                   </a>
                   <a 
-                    href="#"
+                    href="https://github.com/Rag3karn"
                     className="inline-flex items-center px-4 py-2.5 bg-white text-slate-700 rounded-lg border border-slate-200 hover:bg-slate-50 transition-colors"
                   >
                     <Twitter size={18} className="mr-2 text-blue-400" />

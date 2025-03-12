@@ -55,11 +55,11 @@ const Footer = () => {
             <h3 className="text-lg font-medium mb-4">Contact</h3>
             <ul className="space-y-2 text-slate-300">
               <li>
-                <a href="mailto:example@email.com" className="hover:text-white transition-colors">
+                <a href="mailto:karnguptaprivate123@gmail.com" className="hover:text-white transition-colors">
                   example@email.com
                 </a>
               </li>
-              <li>San Francisco, CA</li>
+              <li>Bengaluru, India</li>
             </ul>
           </div>
         </div>
