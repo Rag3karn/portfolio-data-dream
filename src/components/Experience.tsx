@@ -6,7 +6,7 @@ const Experience = () => {
   const experiences = [
     {
       title: "AI Research Intern",
-      company: "Aurorab Private Limited",
+      company: "Augrade",
       location: "Mumbai, MH, India",
       period: "January 2023 - Present",
       description: [
@@ -20,7 +20,7 @@ const Experience = () => {
     },
     {
       title: "Data Science Intern",
-      company: "Innato AI",
+      company: "Innate AI",
       location: "Helsinki, Finland",
       period: "October 2023 - January 2023",
       description: [
