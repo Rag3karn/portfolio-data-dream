@@ -10,29 +10,27 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
       tags: ["Python", "Scikit-learn", "Pandas", "Classification", "Data Visualization"],
       links: {
-        github: "#",
-        live: "#",
+        live: "https://github.com/Rag3karn/Customer-Churn-Prediction",
       },
     },
     {
-      title: "Market Basket Analysis",
+      title: "Chest Cancer Classification",
       description:
-        "Performed association rule mining on retail transaction data to identify product bundling opportunities.",
+        "Constructed a deep learning model to classify chest X-ray images for detecting cancerous tumors.",
       image: "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop",
-      tags: ["R", "Association Rules", "Data Mining", "Business Intelligence"],
+      tags: ["Python", "Deep Learning", "CI/CD pipeline", "TensorFlow", "Keras", "DevOps"],
       links: {
-        github: "#",
+        live: "https://github.com/Rag3karn/Chest-Cancer-Classification",
       },
     },
     {
-      title: "Sentiment Analysis Dashboard",
+      title: "Information Retrieval System",
       description:
-        "Created an interactive dashboard for real-time sentiment analysis of customer feedback data.",
+        "Developed an information retrieval system to search and retrieve documents based on user queries.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
-      tags: ["NLP", "Python", "Tableau", "Text Mining", "Dashboard"],
+      tags: ["NLP", "Python", "API", "RAG", "Streamlit"],
       links: {
-        github: "#",
-        live: "#",
+        live: "https://github.com/Rag3karn/Information-Retrieval-System",
       },
     },
   ];
