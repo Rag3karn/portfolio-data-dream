@@ -9,21 +9,21 @@ const Skills = () => {
     {
       name: "Python",
       icon: <Code size={20} />,
-      proficiency: 90,
+      proficiency: 75,
       description: "Proficient in Python programming for machine learning and data analysis, including frameworks like NumPy, Pandas, and PyTorch.",
       variant: "primary",
     },
     {
       name: "SQL & Databases",
       icon: <Database size={20} />,
-      proficiency: 85,
+      proficiency: 60,
       description: "Experience with MySQL, Docker, MongoDB for data storage and management.",
       variant: "primary",
     },
     {
       name: "APIs & DevOps",
       icon: <Cloud size={20} />,
-      proficiency: 80,
+      proficiency: 75,
       description: "Skilled in REST APIs, Flask, FastAPI, and Docker containerization.",
       variant: "primary",
     },
@@ -71,7 +71,7 @@ const Skills = () => {
     {
       name: "Cloud Services",
       icon: <Cloud size={20} />,
-      proficiency: 75,
+      proficiency: 40,
       description: "Familiar with AWS and cloud-based machine learning deployments.",
       variant: "tertiary",
     },
