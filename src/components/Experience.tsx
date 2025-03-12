@@ -8,7 +8,7 @@ const Experience = () => {
       title: "AI Research Intern",
       company: "Augrade",
       location: "Mumbai, MH, India",
-      period: "January 2023 - Present",
+      period: "January 2025 - Present",
       description: [
         "Developed data visualization dashboards to track key metrics for construction building projects.",
         "Implemented ML models for project timelines optimization and gap analysis.",
@@ -22,7 +22,7 @@ const Experience = () => {
       title: "Data Science Intern",
       company: "Innate AI",
       location: "Helsinki, Finland",
-      period: "October 2023 - January 2023",
+      period: "October 2024 - January 2025",
       description: [
         "Contributed to fine-tuning Large Language Models (LLM) and leveraging AI for critical solutions.",
         "Demonstrated strong problem-solving abilities in applying data science knowledge and APIs.",
