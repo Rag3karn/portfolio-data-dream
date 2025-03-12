@@ -36,7 +36,7 @@ const Experience = () => {
       title: "Teaching Assistant",
       company: "U&I",
       location: "Nagpur Urban, MH, India",
-      period: "April 2023 - August 2023",
+      period: "April 2022 - August 2024",
       description: [
         "Teaching underprivileged students and helping them with their studies.",
         "Contributing to society by educating the underprivileged and orphan students.",
