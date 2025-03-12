@@ -33,7 +33,7 @@ const Skills = () => {
     {
       name: "Machine Learning",
       icon: <BrainCircuit size={20} />,
-      proficiency: 90,
+      proficiency: 75,
       description: "Expertise in machine learning algorithms, model training, and deployment.",
       variant: "secondary",
     },
@@ -57,7 +57,7 @@ const Skills = () => {
     {
       name: "Deep Learning",
       icon: <Terminal size={20} />,
-      proficiency: 85,
+      proficiency: 80,
       description: "Experience with NLP, TensorFlow, and advanced machine learning models.",
       variant: "tertiary",
     },
