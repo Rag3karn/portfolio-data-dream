@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Mail, MessageSquare, SendHorizontal, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, MessageSquare, SendHorizontal, Linkedin, Github } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const Contact = () => {
@@ -147,25 +147,22 @@ const Contact = () => {
                 <h4 className="text-lg font-medium text-slate-900 mb-3">Social Profiles</h4>
                 <div className="flex flex-wrap gap-3">
                   <a 
-                    href="#"
+                    href="https://www.linkedin.com/in/karngupta2/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2.5 bg-white text-slate-700 rounded-lg border border-slate-200 hover:bg-slate-50 transition-colors"
                   >
                     <Linkedin size={18} className="mr-2 text-blue-700" />
                     LinkedIn
                   </a>
                   <a 
-                    href="https://www.linkedin.com/in/karngupta2/"
+                    href="https://github.com/Rag3karn"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2.5 bg-white text-slate-700 rounded-lg border border-slate-200 hover:bg-slate-50 transition-colors"
                   >
                     <Github size={18} className="mr-2" />
                     GitHub
-                  </a>
-                  <a 
-                    href="https://github.com/Rag3karn"
-                    className="inline-flex items-center px-4 py-2.5 bg-white text-slate-700 rounded-lg border border-slate-200 hover:bg-slate-50 transition-colors"
-                  >
-                    <Twitter size={18} className="mr-2 text-blue-400" />
-                    Twitter
                   </a>
                 </div>
               </div>
@@ -176,7 +173,7 @@ const Contact = () => {
                   Currently seeking challenging opportunities in data science to apply my skills and expand my expertise.
                 </p>
                 <a
-                  href="mailto:example@email.com"
+                  href="mailto:karnguptaprivate123@gmail.com"
                   className="inline-flex items-center px-4 py-2 bg-white text-blue-600 rounded-lg font-medium transition-colors hover:bg-blue-50"
                 >
                   <Mail size={16} className="mr-2" />
