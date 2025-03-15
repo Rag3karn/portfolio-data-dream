@@ -2,8 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/4580e344-0987-4c6b-b235-5ae43abecfa5
-
+**URL**: https://karngupta.vercel.app/
 ## How can I edit this code?
 
 There are several ways of editing your application.
