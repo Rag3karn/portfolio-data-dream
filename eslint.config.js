@@ -44,7 +44,9 @@ export default tseslint.config(
       "security/detect-non-literal-regexp": "warn",
       "security/detect-non-literal-fs-filename": "warn",
       "security/detect-eval-with-expression": "error",
-      "security/detect-no-csrf-before-method-override": "warn"
+      "security/detect-no-csrf-before-method-override": "warn",
+      "security/detect-possible-timing-attacks": "warn",
+      "security/detect-unsafe-regex": "error"
     },
   }
 );
