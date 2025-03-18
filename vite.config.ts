@@ -40,6 +40,16 @@ export default defineConfig(({ mode }) => ({
           ]
         }
       }
+    },
+    commonjsOptions: {
+      include: [/node_modules/],
+      extensions: ['.js', '.cjs'],
+      strictRequires: true,
+      transformMixedEsModules: true
     }
+  },
+  optimizeDeps: {
+    include: ['recharts', 'cmdk'],
+    exclude: []
   }
 }));
