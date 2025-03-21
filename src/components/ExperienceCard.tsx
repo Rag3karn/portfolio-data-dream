@@ -1,6 +1,7 @@
 
-import { CalendarDays, MapPin } from "lucide-react";
+import { CalendarDays, MapPin, ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 
 interface ExperienceCardProps {
   title: string;
@@ -11,6 +12,8 @@ interface ExperienceCardProps {
   skills: string[];
   isActive?: boolean;
   animationDelay?: number;
+  websiteUrl?: string;
+  isComingSoon?: boolean;
 }
 
 const ExperienceCard = ({
@@ -22,6 +25,8 @@ const ExperienceCard = ({
   skills,
   isActive = false,
   animationDelay = 0,
+  websiteUrl,
+  isComingSoon = false,
 }: ExperienceCardProps) => {
   return (
     <div 
@@ -75,6 +80,30 @@ const ExperienceCard = ({
           </span>
         ))}
       </div>
+
+      {websiteUrl && (
+        <div className="mt-6">
+          <a 
+            href={websiteUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+          >
+            <Button variant="outline" className="gap-2">
+              <ExternalLink size={16} />
+              View Experience Website
+            </Button>
+          </a>
+        </div>
+      )}
+
+      {isComingSoon && (
+        <div className="mt-6">
+          <Button variant="outline" className="gap-2 opacity-70 cursor-not-allowed" disabled>
+            Experience website coming soon
+          </Button>
+        </div>
+      )}
     </div>
   );
 };

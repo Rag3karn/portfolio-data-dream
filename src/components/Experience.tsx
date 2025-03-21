@@ -17,6 +17,7 @@ const Experience = () => {
       ],
       skills: ["Python", "Machine Learning", "Data Visualization", "Statistical Analysis"],
       isActive: true,
+      isComingSoon: true,
     },
     {
       title: "Data Science Intern",
@@ -31,6 +32,7 @@ const Experience = () => {
       ],
       skills: ["LLMs", "AI Development", "Data Science", "Benchmarking"],
       isActive: false,
+      websiteUrl: "https://kg-internship.vercel.app/",
     },
     {
       title: "Teaching Assistant",
@@ -71,6 +73,8 @@ const Experience = () => {
               skills={exp.skills}
               isActive={exp.isActive}
               animationDelay={index * 100}
+              websiteUrl={exp.websiteUrl}
+              isComingSoon={exp.isComingSoon}
             />
           ))}
         </div>
