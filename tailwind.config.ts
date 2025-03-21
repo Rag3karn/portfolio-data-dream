@@ -68,17 +68,17 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				// Portfolio custom colors
-				"blue": {
-					"50": "#eaf5ff",
-					"100": "#d5eaff",
-					"200": "#b5d9ff",
-					"300": "#8cbfff",
-					"400": "#619aff",
-					"500": "#3b76ff",
-					"600": "#2058ff",
-					"700": "#1a47e7",
-					"800": "#1e3cb3",
-					"900": "#1e3a8a",
+				"emerald": {
+					"50": "#ecfdf5",
+					"100": "#d1fae5",
+					"200": "#a7f3d0",
+					"300": "#6ee7b7",
+					"400": "#34d399",
+					"500": "#10b981",
+					"600": "#059669",
+					"700": "#047857",
+					"800": "#065f46",
+					"900": "#064e3b",
 				},
 				"slate": {
 					"50": "#f8fafc",
@@ -100,8 +100,8 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				display: ['SF Pro Display', 'Inter', 'sans-serif']
+				sans: ['Poppins', 'Inter', 'sans-serif'],
+				display: ['Poppins', 'SF Pro Display', 'sans-serif']
 			},
 			keyframes: {
 				'accordion-down': {

@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 221.2 83% 53.3%;
+    --primary: 162 47% 50%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -33,7 +33,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83% 53.3%;
+    --ring: 162 47% 50%;
 
     --radius: 0.5rem;
 
@@ -59,7 +59,7 @@
   }
 
   ::selection {
-    @apply bg-blue-200 text-blue-900;
+    @apply bg-emerald-200 text-emerald-900;
   }
 
   .glass {
@@ -79,7 +79,7 @@
   }
 
   .section-tag {
-    @apply text-sm font-medium text-blue-600 mb-2 inline-block;
+    @apply text-sm font-medium text-emerald-600 mb-2 inline-block;
   }
 }
 
