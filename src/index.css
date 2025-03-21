@@ -7,7 +7,7 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
+    --background: 152 43% 97%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -56,6 +56,11 @@
     @apply bg-background text-foreground font-sans;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-image: 
+      radial-gradient(at 20% 40%, hsla(168, 85%, 93%, 0.8) 0px, transparent 50%),
+      radial-gradient(at 80% 10%, hsla(189, 85%, 93%, 0.8) 0px, transparent 50%),
+      radial-gradient(at 60% 80%, hsla(160, 85%, 93%, 0.6) 0px, transparent 50%);
+    background-attachment: fixed;
   }
 
   ::selection {
@@ -110,5 +115,54 @@
   
   .animate-delay-500 {
     animation-delay: 500ms;
+  }
+
+  .animate-spin-slow {
+    animation: spin 15s linear infinite;
+  }
+
+  .animate-float-3d {
+    animation: float-3d 8s ease-in-out infinite;
+  }
+
+  .animate-bounce-slow {
+    animation: bounce 3s ease-in-out infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 4s ease-in-out infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes float-3d {
+    0%, 100% {
+      transform: translateY(0) rotate3d(1, 1, 1, 0deg);
+    }
+    25% {
+      transform: translateY(-10px) rotate3d(1, 1, 1, 5deg);
+    }
+    50% {
+      transform: translateY(5px) rotate3d(1, 1, 1, -5deg);
+    }
+    75% {
+      transform: translateY(-5px) rotate3d(1, 1, 1, 5deg);
+    }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      filter: drop-shadow(0 0 5px rgba(16, 185, 129, 0.1));
+    }
+    50% {
+      filter: drop-shadow(0 0 20px rgba(16, 185, 129, 0.4));
+    }
   }
 }
